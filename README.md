@@ -5,7 +5,6 @@ A simple phonebook web app using HTML/CSS/JavaScript for demonstation of the doc
 Steps to produce
 
 - Create a fork from this repository and clone
-- Get fonts
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
