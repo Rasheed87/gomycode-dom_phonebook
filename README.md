@@ -15,3 +15,7 @@ Steps to produce
   rel="stylesheet"
 />
 ```
+
+## Wireframe
+
+![Wireframe for simple phonebook app](/images/wireframe.png)
