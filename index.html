@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script defer src="script.js"></script>
   </head>
 
   <body>
@@ -20,10 +21,16 @@
 
     <main class="main">
       <form class="form">
-        <input name="name" type="text" placeholder="Contact name" />
         <input
-          name="phoneNumber"
+          required
+          name="contactName"
           type="text"
+          placeholder="Contact name"
+        />
+        <input
+          required
+          name="contactPhone"
+          type="number"
           placeholder="Contact phone number"
         />
 
@@ -31,12 +38,11 @@
       </form>
 
       <ul class="contact-list">
-        <li>
+        <!-- <li>
           <div>
             <p>Israel Joan</p>
             <span>x</span>
           </div>
-
           <p>1234567890123</p>
         </li>
         <li>
@@ -44,7 +50,6 @@
             <p>Israel Joan</p>
             <span>x</span>
           </div>
-
           <p>1234567890123</p>
         </li>
         <li>
@@ -52,9 +57,8 @@
             <p>Israel Joan</p>
             <span>x</span>
           </div>
-
           <p>1234567890123</p>
-        </li>
+        </li> -->
       </ul>
     </main>
   </body>
